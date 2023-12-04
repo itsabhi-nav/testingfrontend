@@ -114,11 +114,11 @@ const Header = () => {
                 <div
                   className={`${
                     isDatasetDropdownOpen ? "block" : "hidden"
-                  } absolute mt-2 space-y-2 text-sm text-gray-700 dark:text-gray-400 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark-bg-gray-700 dark:divide-gray-600 z-20`}
+                  } absolute  space-y-2 text-sm text-gray-700 dark:text-gray-400 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark-bg-gray-700 dark:divide-gray-600 z-20`}
                 >
                   <Link
                     href="/Details"
-                    className="block px-4 py-2 hover-bg-gray-100 dark-hover-bg-gray-600 dark-hover-text-gray-500"
+                    className="block -pt-2 -mb-1 px-4 py-2 hover-bg-gray-100 dark-hover-bg-gray-600 dark-hover-text-gray-500"
                     onClick={handleDropdownLinkClick}
                   >
                     Details

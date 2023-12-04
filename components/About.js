@@ -17,12 +17,12 @@ const About = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto px-1 lg:px-5 py-3 lg:py-5 flex items-center justify-center flex-col">
-          <div className="text-lg  xl:text-4xl text-blue-700 mt-6 mb-4 pl-6 lg:pl-0 pr-6 lg:pr-0 sm:text-4xl md:text-3xl lg:text-4xl">
+          <div className="text-lg  xl:text-4xl text-blue-700 mt-6 font-bold mb-4 pl-6 lg:pl-0 pr-6 lg:pr-0 sm:text-4xl md:text-3xl lg:text-4xl">
             About Us
           </div>
           <ImageWrapper src={imageAsset} alt="Flowbite Logo" />
           <div className=" text-gray-700 leading-relaxed text-justify pl-6 pr-6 lg:pr-0 lg:pl-0 lg:w-90%">
-            <p className="text-gray-700 leading-relaxed text-justify pl-6 pr-6 lg:pr-0 lg:pl-0 lg:w-90%d">
+            <p className="text-gray-700 leading-relaxed text-justify pl-6 pr-6 mt-8 lg:pr-0 lg:pl-0 lg:w-90%d">
               WIRIN – Wipro IISc Research and Innovative Network in association
               with RV College of Engineering, Bangalore has taken initiative to
               Create and provide National Dataset.

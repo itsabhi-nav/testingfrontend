@@ -391,7 +391,7 @@ const Download = () => {
                     >
                       {imageUrl && (
                         <img
-                          className="lg:h-full md:h-full w-full object-cover object-center"
+                          className="h-full w-full object-cover object-center"
                           src={imageUrl}
                           alt={title}
                         />

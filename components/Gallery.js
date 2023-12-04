@@ -91,7 +91,7 @@ const Gallery = () => {
 
   return (
     <div className="pl-4 pr-4 sm:pl-16 sm:pr-16 mx-auto w-full sm:w-7/10 lg:w-3/5">
-      <h2 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-700 mt-8 mb-4 ml-8 text-center">
+      <h2 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-700 mt-12 mb-8 ml-8 text-center">
         Gallery
       </h2>
       <Carousel showArrows autoPlay infiniteLoop>
@@ -105,7 +105,8 @@ const Gallery = () => {
           } = image;
 
           // Construct the image URL
-          const imageUrl = thumbnail.url;
+          // Change this line inside the map function to use the 'large' format instead of 'thumbnail'
+          const imageUrl = image.attributes.formats.large.url;
 
           return (
             <div key={id}>
