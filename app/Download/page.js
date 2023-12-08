@@ -377,7 +377,7 @@ const Download = () => {
                   dataset.attributes.image &&
                   dataset.attributes.image.data &&
                   dataset.attributes.image.data.attributes.url
-                    ? dataset.attributes.image.data.attributes.url
+                    ? `${process.env.NEXT_PUBLIC_API_URL}${dataset.attributes.image.data.attributes.url}`
                     : "";
 
                 // More console.log statements for debugging

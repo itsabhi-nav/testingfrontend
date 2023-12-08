@@ -1,4 +1,4 @@
-// File: /Users/Abhinav/Downloads/render/last frontend/frontend/app/Events/page.js
+// File: /Users/Abhinav/Downloads/frji/last frontend/frontend/app/Events/page.js
 import * as entry from '../../../../app/Events/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

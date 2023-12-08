@@ -12,20 +12,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/Expertise/page": [
+    "/Download/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Expertise/page.js"
+      "static/chunks/app/Download/page.js"
     ],
     "/Details/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Details/page.js"
     ],
-    "/Download/page": [
+    "/Expertise/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Download/page.js"
+      "static/chunks/app/Expertise/page.js"
     ],
     "/Benchmark/page": [
       "static/chunks/webpack.js",
