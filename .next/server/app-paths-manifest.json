@@ -1,5 +1,8 @@
 {
-  "/page": "app/page.js",
+  "/Details/page": "app/Details/page.js",
   "/Download/page": "app/Download/page.js",
-  "/Contact/page": "app/Contact/page.js"
+  "/Expertise/page": "app/Expertise/page.js",
+  "/Events/page": "app/Events/page.js",
+  "/Benchmark/page": "app/Benchmark/page.js",
+  "/page": "app/page.js"
 }

@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import styled from "styled-components";
 import imageAsset from "/image/about.jpg";
-import Gallery from "./Gallery";
 const ImageWrapper = styled(Image)`
   width: 50%;
 

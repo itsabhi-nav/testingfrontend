@@ -262,6 +262,7 @@
 
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Loader from "/components/Loader";
 
 const Download = () => {
   const [datasets, setDatasets] = useState([]);
@@ -334,6 +335,22 @@ const Download = () => {
     } catch (error) {
       console.error("Error submitting form:", error);
     }
+
+
+    // Loader Starts
+
+    useEffect(() => {
+      // Simulate an asynchronous operation (e.g., fetching data)
+      const fetchData = async () => {
+        // Simulating a delay of 2 seconds
+        await new Promise((resolve) => setTimeout(resolve,2000));
+        setLoading(false); // Set loading to false when data is fetched
+      };
+
+      fetchData();
+    }, []);
+
+    // Loader Ends
   };
 
   return (
@@ -352,6 +369,7 @@ const Download = () => {
       </section>
 
       <section className="text-gray-600 -mt-20 body-font">
+        {loading && <Loader />} {/* Show the loader if loading is true */}
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             {loading && <p>Loading datasets...</p>}
